@@ -16,7 +16,7 @@ const HeroSection = ({ currentLanguage }: HeroSectionProps) => {
       subtitle: "Qualität",
       description: "Hi, ich bin Cevin Rothenhäusler – IT-Systemadministrator und Digitalberater. Ich helfe Unternehmen dabei, digital sichtbar zu werden.",
       callout: "Du willst digital durchstarten, aber weißt nicht Wie? Ich höre zu und entwickle mit dir eine Lösung, die funktioniert.",
-      button: "Erzähl mir von deinem Projekt
+      button: "Erzähl mir von deinem Projekt",
       stats: {
         views: "Aufrufe",
         years: "Jahre", 
