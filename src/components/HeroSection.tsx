@@ -27,11 +27,9 @@ const HeroSection = ({ currentLanguage }: HeroSectionProps) => {
     en: {
       title: "No Nonsense.",
       subtitle: "Quality",
-      description: "Hi, I'm Max Müller – web developer and digital consultant. For 2.5 years I've been helping local businesses become digitally visible.",
-      callout: "You want to go digital but have no idea about websites? I listen and develop a solution with you that works.",
+      description: "Hi, I'm Cevin Rothenhäusler – IT Sysadmin and digital consultant. I'm been helping businesses become digitally visible.",
+      callout: "You want to go digital but don't know how? I listen and develop a solution with you that works.",
       button: "Tell me about your project",
-      upload: "Your Profile Picture",
-      uploadText: "Click to upload",
       stats: {
         views: "Views",
         years: "Years",
