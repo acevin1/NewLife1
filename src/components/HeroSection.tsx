@@ -1,5 +1,7 @@
+import { ArrowRight } from "lucide-react";
 import DynamicBackground from './DynamicBackground';
 import profileImage from "../Pictures/profile.jpg";
+
 
 interface HeroSectionProps {
   currentLanguage: 'de' | 'en';
