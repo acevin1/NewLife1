@@ -1,6 +1,8 @@
 
 import { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
+import logo from "../Pictures/cworkz_letter.png";
+
 
 interface HeaderProps {
   currentLanguage: 'de' | 'en';
@@ -74,9 +76,15 @@ const Header = ({ currentLanguage, onLanguageChange }: HeaderProps) => {
           </div>
 
           {/* Brand - Center */}
-          <div className="text-2xl font-bold text-gray-900 absolute left-1/2 transform -translate-x-1/2">
-            WebDev Pro
-          </div>
+                  <div className="absolute left-1/2 transform -translate-x-1/2">
+                      <img
+                          src={logo}
+                          alt="WebDev Pro Logo"
+                          className="h-10 w-auto"
+                      />
+                  </div>
+
+
           
           {/* Desktop Navigation - Right */}
           <nav className="hidden md:flex space-x-8">
