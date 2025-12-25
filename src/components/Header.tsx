@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
-import logo from "../Pictures/cworkz_letter.png";
+import logo from "../Pictures/cworkz_letter2.png";
 
 
 interface HeaderProps {
